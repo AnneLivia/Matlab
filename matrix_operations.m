@@ -5,6 +5,10 @@ m = magic(3); % magic square 6x6
 disp('Magic square 3x3: ');
 disp(m);
 
+% sum of all elements of a matrix
+disp('Sum of all elements: ');
+disp(sum(m(:))); %m(:) transform all to a collumn vector
+
 % A is a matrix, then sum(A) returns a row vector containing the sum of each column.
 % return the sum of each row ? if we transpose a matrix, row becomes
 % collumn and vice versa
@@ -32,4 +36,5 @@ a = [1 2 3; 1 2 3; 1 2 3];
 b = [2 3 4; 2 3 5; 1 1 1];
 disp('Addition: ');
 disp(a+b);
+
 
