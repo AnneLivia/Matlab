@@ -38,6 +38,27 @@ while i <= 10
     i = i + 1;
 end
 
+disp('Prime numbers: ');
+i = 0;
+while i <= 10
+    if i <= 1
+        i = i + 1;
+        continue;
+    end
+    div = 2;
+    j = 2;
+    while j < i
+       if mod(i,j) == 0
+           div = div + 1;
+           break; % is not a prime number
+       end
+       j = j + 1;
+    end
+    if div == 2
+        fprintf('%d is a prime number\n', i);
+    end
+    i = i + 1;
+end
 % can do a nested loop similar to for (no problem)
 
 
