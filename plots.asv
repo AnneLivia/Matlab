@@ -34,11 +34,9 @@ x = 1:10;
 bar(x, 'c');
 
 % students
-s = 1:6;
+s = 1:;
 g = [90, 97, 98, 93, 95, 90];
-bar(s,g,'g'), xlabel('Students'), ylabel('Grades'), title ('teste');
 
-% Three-dimensional plots basically display a surface defined by a function in two variables, g = f (x,y).
 
 
 
